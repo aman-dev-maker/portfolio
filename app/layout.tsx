@@ -25,20 +25,20 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Aman Kumar — 2nd-Year Computer Science Undergraduate",
   description:
-    "Portfolio inmersivo de Aman Kumar — 2nd-Year Computer Science Undergraduate. Experiencias web 3D con Next.js y React Three Fiber.",
+    "Immersive portfolio of Aman Kumar — 2nd-Year Computer Science Undergraduate. 3D web experiences with Next.js and React Three Fiber.",
   authors: [{ name: "Aman Kumar" }],
   openGraph: {
     title: "Aman Kumar — 2nd-Year Computer Science Undergraduate",
     description:
-      "Portfolio inmersivo con escena 3D interactiva. Next.js, React Three Fiber, GLSL.",
+      "Immersive portfolio with interactive 3D scene. Next.js, React Three Fiber, GLSL.",
     type: "website",
-    locale: "es_ES",
+    locale: "en_US",
   },
   twitter: {
     card: "summary_large_image",
     title: "Aman Kumar — 2nd-Year Computer Science Undergraduate",
     description:
-      "Portfolio inmersivo con escena 3D interactiva. Next.js, React Three Fiber, GLSL.",
+      "Immersive portfolio with interactive 3D scene. Next.js, React Three Fiber, GLSL.",
   },
 };
 
@@ -54,7 +54,7 @@ export default function RootLayout({
 }>) {
   return (
     <html
-      lang="es"
+      lang="en"
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
       suppressHydrationWarning
     >

@@ -3,16 +3,16 @@
 // which resolves the path for the active language. Keeping it flat and
 // co-located (rather than adding a dependency like next-intl) keeps the
 // project tiny and makes the strings easy to audit.
-export type Lang = "es" | "en";
+export type Lang = "en";
 
-export const LANGUAGES: Lang[] = ["es", "en"];
-export const DEFAULT_LANG: Lang = "es";
+export const LANGUAGES: Lang[] = ["en"];
+export const DEFAULT_LANG: Lang = "en";
 
-type Leaf = Record<Lang, string>;
+type Leaf = { es?: string; en: string };
 type Node = Leaf | { [key: string]: Node };
 
 function isLeaf(node: Node): node is Leaf {
-  return typeof (node as Leaf).es === "string";
+  return typeof (node as Leaf).en === "string";
 }
 
 export const DICT = {
@@ -177,6 +177,6 @@ export function translate(path: string, lang: Lang): string {
     ref = (ref as { [key: string]: Node })[p];
     if (ref === undefined) return path;
   }
-  if (isLeaf(ref)) return ref[lang] ?? ref.es ?? path;
+  if (isLeaf(ref)) return ref[lang] ?? ref.en ?? path;
   return path;
 }

@@ -37,7 +37,7 @@ export default function LanguageProvider({ children }: { children: ReactNode }) 
     // <html> element. No-op if the boot script didn't find a stored pref.
     const domLang = document.documentElement.lang;
     if (
-      (domLang === "es" || domLang === "en") &&
+      domLang === "en" &&
       domLang !== lang
     ) {
       setLangState(domLang);
