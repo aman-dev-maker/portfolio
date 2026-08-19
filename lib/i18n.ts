@@ -43,12 +43,12 @@ export const DICT = {
   hero: {
     greeting: { es: "Hola, soy", en: "Hi, I am" },
     roleLine: {
-      es: "Software Engineer & Tech Lead.",
-      en: "Software Engineer & Tech Lead.",
+      es: "2nd-Year Computer Science Undergraduate.",
+      en: "2nd-Year Computer Science Undergraduate.",
     },
     tagline: {
-      es: "Especializado en ERPs y aplicaciones full-stack para empresas.",
-      en: "Specialised in ERPs and full-stack apps for businesses.",
+      es: "Open-source contributor building accessible, AI-powered applications.",
+      en: "Open-source contributor building accessible, AI-powered applications.",
     },
     cv: { es: "Descargar CV", en: "Download CV" },
     hire: { es: "Contactarme", en: "Contact me" },
