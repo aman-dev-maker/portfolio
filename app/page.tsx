@@ -684,7 +684,9 @@ export default function Home() {
                     {t("contact.copyEmail")}
                   </CopyEmail>
                   <a
-                    href={`mailto:${EMAIL}`}
+                    href={`https://mail.google.com/mail/?view=cm&fs=1&to=${EMAIL}`}
+                    target="_blank"
+                    rel="noopener noreferrer"
                     data-cursor="hover"
                     className="frost-btn"
                   >
