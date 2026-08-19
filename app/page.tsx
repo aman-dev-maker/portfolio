@@ -186,33 +186,33 @@ const experiences: Array<{
   stack: string[];
 }> = [
   {
-    role: { es: "Tech Lead", en: "Tech Lead" },
-    company: "Activalink",
-    period: { es: "2023 — Presente", en: "2023 — Present" },
-    location: { es: "Alcoy, España", en: "Alcoy, Spain" },
+    role: { es: "2nd year, B.Tech CSE (AI/ML)", en: "2nd year, B.Tech CSE (AI/ML)" },
+    company: "Noida International University",
+    period: { es: "2025 — 2029", en: "2025 — 2029" },
+    location: { es: "Delhi, India", en: "Delhi, India" },
     summary: {
-      es: "Activalink implementa y adapta ERPs para pymes y grandes empresas. Desarrollo módulos y personalizaciones custom sobre Odoo, integraciones a medida y proyectos de implantación llave en mano. Lidero un equipo de 3 desarrolladores: nuestro trabajo se mide en tiempo ahorrado y errores evitados.",
-      en: "Activalink implements and customises ERPs for SMBs and large companies. I build custom modules and personalisations on top of Odoo, bespoke integrations, and end-to-end implementation projects. I lead a team of 3 developers: our work is measured in time saved and errors avoided.",
+      es: "Learned CS fundamentals and web development, then applied them beyond coursework - open source, GenAl tooling, and GSoC.",
+      en: "Learned CS fundamentals and web development, then applied them beyond coursework - open source, GenAl tooling, and GSoC.",
     },
     bullets: [
       {
-        es: "OCR de facturas en Odoo — de 4 h/día a 30 min (−87 %).",
-        en: "Invoice OCR in Odoo — from 4 h/day down to 30 min (−87 %).",
+        es: "Core CS + full-stack web: Python, DSA, React, Node.js, SQL.",
+        en: "Core CS + full-stack web: Python, DSA, React, Node.js, SQL.",
       },
       {
-        es: "Logística con mapa interactivo — −60 % errores de seguimiento.",
-        en: "Interactive logistics map — −60 % tracking errors.",
+        es: "Applied GenAl: built a voice interview assistant and an agentic RAG system with LangChain.",
+        en: "Applied GenAl: built a voice interview assistant and an agentic RAG system with LangChain.",
       },
       {
-        es: "Conciliación automática — cierre contable de 3 días a medio día.",
-        en: "Automated reconciliation — monthly close from 3 days to half a day.",
+        es: "Merged PR #1112 on malariagen-data-python; wrote a full GSoC 2026 proposal.",
+        en: "Merged PR #1112 on malariagen-data-python; wrote a full GSoC 2026 proposal.",
       },
       {
-        es: "Dashboards financieros — detección temprana de facturas sin emitir.",
-        en: "Financial dashboards — early detection of uninvoiced orders.",
+        es: "Competed in the OpenAl-affiliated and Adobe hackathons.",
+        en: "Competed in the OpenAl-affiliated and Adobe hackathons.",
       },
     ],
-    stack: ["Odoo", "Python", "PostgreSQL", "Next.js", "TypeScript", "Docker"],
+    stack: ["Python", "React", "LangChain", "RAG", "Node.js", "Git", "Docker"],
   },
 ];
 
@@ -275,7 +275,7 @@ export default function Home() {
             <SeasonPicker />
             <span className="hidden md:inline-flex">
             <a
-              href="https://github.com/Txemalon/3d-portfolio"
+              href="https://github.com/aman-dev-maker/portfolio"
               target="_blank"
               rel="noopener noreferrer"
               data-cursor="hover"
@@ -333,7 +333,7 @@ export default function Home() {
                 style={{ ["--d" as string]: "700ms" }}
               >
                 <a
-                  href="/CV_AmanKumar.pdf"
+                  href="/Aman_Kumar_Resume_Sidebar.pdf"
                   target="_blank"
                   rel="noopener noreferrer"
                   data-cursor="hover"
